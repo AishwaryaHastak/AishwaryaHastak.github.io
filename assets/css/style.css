@@ -50,7 +50,7 @@ body{
 a,a:hover,a:active,a:focus {
 	display:inline-block;
 	text-decoration:none;
-	color: #6a708e;
+	color: #b5b785;
 	font-size:16px;
 	padding:0;
 }
@@ -148,7 +148,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     font-size: 8px;
     margin-left: 15px;
 }
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#6a708e;}
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#b5b785;}
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active>a{color: #d92cf9;}
 /*.nav li*/
 
@@ -249,7 +249,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #e6bc03ce;}
 /*.single-about-txt*/
 .single-about-txt h3 {
     font-size:18px;
-    color: #3c4258;
+    color: #b5b785;
     text-transform: initial;
     line-height: 1.8;
 }
@@ -257,13 +257,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #e6bc03ce;}
     font-size: 16px;
     color: #999fb3;
     padding: 35px 0 43px;
-    border-bottom: 1px solid #999fb3;
+    border-bottom: 1px solid #b5b785;
 }
 .single-about-add-info {
     margin: 35px 0;
 }
 .single-about-add-info h3 {
-    color: #636a82;
+    color: #b5b785;
     font-size: 16px;
     text-transform: capitalize;
 }
@@ -294,7 +294,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #e6bc03ce;}
     left: 0;
     width: 109%;
     height: 90px;
-    background: #1f2c6c;
+    background: #82731e;
 }
 /*.ab-list-icon */
 .about-list-icon ul {
@@ -342,7 +342,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #e6bc03ce;}
 .single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
 .single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
 .single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
-.single-horizontal-timeline p {color: #999fb3;max-width: 335px;}
+.single-horizontal-timeline p {color: #adb399;max-width: 335px;}
 
 /*.timeline-horizontal-border*/
 .timeline-horizontal-border {
@@ -357,7 +357,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #e6bc03ce;}
 }
 span.single-timeline-horizontal {
     display:  inline-block;
-    background: #b2c1ce;
+    background: #c9ceb2;
     height:  1px;
     width: 380px;
 }
@@ -455,7 +455,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .experience-time h3 {
     font-size: 16px;
     font-weight: 300;
-    color: #636a82;
+    color: #acad81;
     margin-top: 14px;
     text-transform: uppercase;
 }
@@ -469,7 +469,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     content: "";
     width: 2px;
     height: 84%;
-    background: #b2c1ce;
+    background: #c4ceb2;
     position: absolute;
     top: 1.5%;
     left: 45.8%;
@@ -492,14 +492,14 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     text-transform: uppercase;
 }
 .timeline-content h5 {
-    color: #636a82;
+    color: #818263;
     font-size: 14px;
     font-weight: 300;
     margin: 18px 0 20px;
 }
 .main-timeline .description {
     font-size: 14px;
-    color: #999fb3;
+    color: #c0c09d;
 }
 .main-timeline .timeline-content.right{
     float: right;
@@ -537,7 +537,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: 1px solid #b2c1ce;
+    border-right: 1px solid #caceb2;
     overflow:hidden;
     -webkit-transition:background 0.5s linear; 
     -moz-transition:background 0.5s linear; 
@@ -547,12 +547,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .profile-icon-name {
     text-transform: capitalize;
-    color: #636a82;
+    color: #828163;
     font-size: 16px;
 }
 .single-profile.profile-no-border{border-right:transparent;}
 .profile-border {
-    border-bottom: 1px solid #b2c1ce;
+    border-bottom: 1px solid #ccceb2;
 }
 .single-profile-overlay{
     display:flex;
@@ -596,7 +596,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 --------------------------------------*/
 .portfolio {
     padding:  50px 0 100px;
-    border:  1px solid #e5ebf2;
+    border:  1px solid #eef2e5;
 }
 
 .portfolio-content {padding-top: 100px;}
@@ -635,7 +635,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     position:absolute;
     height:100%;
     width:100%;
-    background:rgba(31,44,108,.5);
+    background:rgba(108, 108, 31, 0.5);
     display:flex;
     align-items:center;
     text-transform: uppercase;
@@ -705,7 +705,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     box-shadow: none;
     outline: 0!important;
     background: #fff;
-    color: #636a82;
+    color: #828163;
     resize: none;
 }
 
@@ -753,12 +753,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /* contact-adress */
 .contact-add-head h3 {
     font-size:  24px;
-    color:  #3c4258;
+    color:  #58553c;
 }
 .contact-add-head p {
     font-size:  16px;
     text-transform: capitalize;
-    color:  #636a82;
+    color:  #58553c;
     font-weight:  300;
     margin-top:  6px;
 }
@@ -767,11 +767,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.contact-add-info */
 .contact-add-info { margin: 42px 0 52px;}
 .single-contact-add-info h3 {
-    color:  #636a82;
+    color:  #58553c;
     font-weight:  500;
 }
 .single-contact-add-info p {
-    color:  #999fb3;
+    color:  #58553c;
     font-size:  16px;
     margin-top:  18px;
 }
@@ -786,7 +786,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .hm-foot-icon ul li{float:left;}
 .hm-foot-icon ul li>a {
-    color: #636a82;
+    color: #58553c;
     margin-right:18px;
     -webkit-transition: .3s; 
     -moz-transition:.3s; 
@@ -799,11 +799,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }/*hm-foot-icon*/
 
 .hm-footer-copyright p{
-    color: #888ea5;
+    color: #a5a588;
     text-transform: capitalize;
     padding: 38px 0;
 }
-.hm-footer-copyright p a {color: #888ea5;}
+.hm-footer-copyright p a {color: #a5a488;}
 /*===============================
     Scroll Top
 ===============================*/
