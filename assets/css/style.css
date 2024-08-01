@@ -386,7 +386,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .single-progress-txt h3 {
     width: 10%;
-    color: #e6bc03ce;
+    color: #8d7300ce;
     position: relative;
     top: 6px;
     left: 20px;
@@ -406,7 +406,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     margin-bottom: 37px;
 }
 .progress-bar {
-   background: #e6bc03ce;
+   background: #8d7300ce;
     border-radius: 3px;
    -webkit-transition: width 1.5s ease-in-out;
    -ms-transition: width 1.5s ease-in-out;
@@ -421,7 +421,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .tooltip > .tooltip-inner {
    background-color: transparent;
    padding: 1px 5px;
-   color: #e6bc03ce;
+   color: #8d7300ce;
    font-weight: 500;
    font-size: 12px;
    border-radius: 0;
@@ -455,7 +455,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .experience-time h3 {
     font-size: 16px;
     font-weight: 300;
-    color: #acad81;
+    color: #6e6e55;
     margin-top: 14px;
     text-transform: uppercase;
 }
@@ -492,14 +492,14 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     text-transform: uppercase;
 }
 .timeline-content h5 {
-    color: #818263;
+    color: #636246;
     font-size: 14px;
     font-weight: 300;
     margin: 18px 0 20px;
 }
 .main-timeline .description {
     font-size: 14px;
-    color: #c0c09d;
+    color: #636246;
 }
 .main-timeline .timeline-content.right{
     float: right;
@@ -517,7 +517,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 .experience-time-responsive{display: none;}
 /*-------------------------------------
-        8. Profiles
+        8. Projects
 --------------------------------------*/
 .profiles {
     padding:  50px 0 100px;
@@ -592,11 +592,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .single-profile:hover .profile-icon-name,.single-profile:hover .profile-txt a>i{color: #fff;}
 .single-profile:hover .profile-border {border:transparent;}
 /*-------------------------------------
-        9. Portfolio
+        9. Projects
 --------------------------------------*/
 .portfolio {
     padding:  50px 0 100px;
-    border:  1px solid #eef2e5;
+    border:  1px solid #c3cbb1;
 }
 
 .portfolio-content {padding-top: 100px;}
@@ -635,7 +635,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     position:absolute;
     height:100%;
     width:100%;
-    background:rgba(108, 108, 31, 0.5);
+    background:rgba(87, 87, 22, 0.5);
     display:flex;
     align-items:center;
     text-transform: uppercase;
@@ -655,7 +655,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .isotope-overlay a {
     display: inline-block;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
 }
 .isotope .item:hover .isotope-overlay{
@@ -683,6 +683,43 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     width: 100%;
     height: auto;
     border-radius:0;
+}
+/*-------------------------------------
+    11. Recommendations
+--------------------------------------*/
+.recommendations {padding-top: 50px;}
+.recommendations-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.recommendation-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 100%;
+    max-width: 600px;
+}
+
+.recommendation-item h3 {
+    margin-top: 0;
+}
+
+.recommendation-item blockquote {
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.recommendation-item a {
+    color: #6e6e43;
+    text-decoration: none;
+}
+
+.recommendation-item a:hover {
+    text-decoration: underline;
 }
 
 /*-------------------------------------
