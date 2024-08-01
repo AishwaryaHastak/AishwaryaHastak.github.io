@@ -71,45 +71,44 @@ $(document).ready(function(){
 			});
 		}
 	
-	// 4. owl carousel
-	
-		// i. client (carousel)
+	// 4. owl carousel 
+
+		//ii. recommendaitons (carousel)
 		
-			$('#recommendations').owlCarousel({
-				items:1,
-				loop:true,
-				smartSpeed: 1000,
-				autoplay:true,
-				dots:true,
-				autoplayHoverPause:true,
-				// responsive:{
-				// 		0:{
-				// 			items:2
-				// 		},
-				// 		415:{
-				// 			items:2
-				// 		},
-				// 		600:{
-				// 			items:4
+		$('#recommendation').owlCarousel({
+			items:1,
+			loop:true,
+			smartSpeed: 1000,
+			autoplay:true,
+			dots:true,
+			autoplayHoverPause:true,
+			responsive:{
+					0:{
+						items:1
+					},
+					415:{
+						items:1
+					},
+					600:{
+						items:1
 
-				// 		},
-				// 		1199:{
-				// 			items:4
-				// 		},
-				// 		1200:{
-				// 			items:7
-				// 		}
-				// 	}
-				});
-				
-				
-				$('.play').on('click',function(){
-					owl.trigger('play.owl.autoplay',[1000])
-				})
-				$('.stop').on('click',function(){
-					owl.trigger('stop.owl.autoplay')
-				})
-
+					},
+					1199:{
+						items:1
+					},
+					1200:{
+						items:1
+					}
+				}
+			});
+			
+			
+			$('.play').on('click',function(){
+				owl.trigger('play.owl.autoplay',[1000])
+			})
+			$('.stop').on('click',function(){
+				owl.trigger('stop.owl.autoplay')
+			})
 
     // 5. welcome animation support
 
