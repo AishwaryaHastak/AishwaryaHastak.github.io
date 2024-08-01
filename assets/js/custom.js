@@ -75,7 +75,7 @@ $(document).ready(function(){
 	
 		// i. client (carousel)
 		
-			$('#client').owlCarousel({
+			$('#recommendations').owlCarousel({
 				items:1,
 				loop:true,
 				smartSpeed: 1000,
