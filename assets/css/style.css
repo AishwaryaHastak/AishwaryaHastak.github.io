@@ -249,7 +249,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #c09c00ce;}
 /*.single-about-txt*/
 .single-about-txt h3 {
     font-size:18px;
-    color: #b5b785;
+    color: #715f02f6;
     text-transform: initial;
     line-height: 1.8;
 }
@@ -261,7 +261,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #c09c00ce;}
 }
 .single-about-txt p a{
     font-size: 18px;
-    color: #a7ac7a; 
+    color: #a7ac7a;  text-decoration: underline;
 }
 .single-about-add-info {
     margin: 35px 0;
@@ -705,4 +705,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
+
+
 /*========================Thank you=================
