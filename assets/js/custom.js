@@ -1,20 +1,12 @@
 $(document).ready(function(){
 	"use strict";
-    
-        /*==================================
-* Author        : "ThemeSine"
-* Template Name : Khanas HTML Template
-* Version       : 1.0
-==================================== */
-
-
-
 /*=========== TABLE OF CONTENTS ===========
 1. Scroll To Top 
 2. Smooth Scroll spy
 3. Progress-bar
 4. owl carousel
 5. welcome animation support
+6. Expand/Collapse Project Details
 ======================================*/
 
     // 1. Scroll To Top 
@@ -121,6 +113,21 @@ $(document).ready(function(){
         	$(".header-text h2,.header-text p").addClass("animated fadeInUp").css({'opacity':'0'});
             $(".header-text a").addClass("animated fadeInDown").css({'opacity':'0'});
         });
+
+	// 6. Expand/Collapse Project Details
+	$('.expand-btn').on('click', function () {
+		const itemDetails = $(this).prev('.item-details');
+		const isExpanded = $(this).hasClass('active');
+		
+		if (isExpanded) {
+			itemDetails.css('max-height', '0');
+			setTimeout(() => itemDetails.hide(), 300); // Match transition duration
+			$(this).removeClass('active');
+		} else {
+			itemDetails.show().css('max-height', itemDetails.prop('scrollHeight') + 'px');
+			$(this).addClass('active');
+		}
+	});
 
 });	
 	

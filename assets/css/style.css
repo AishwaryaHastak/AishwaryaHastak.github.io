@@ -333,8 +333,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #c09c00ce;}
 --------------------------------------*/
 
 .education {
-    background:  #f9fbfd;
+    background:  #ffffffdd;
     padding-top:  50px;
+    border-top: 1px solid #e5ebf2;
 }
 .education-horizontal-timeline {
     padding: 80px 0;
@@ -347,7 +348,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #c09c00ce;}
 .single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
 .single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
 .single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
-.single-horizontal-timeline p {color: #747967;max-width: 335px;font-size: 16px;}
+.single-horizontal-timeline p {color: #545847;max-width: 335px;font-size: 16px;}
 
 /*.timeline-horizontal-border*/
 .timeline-horizontal-border {
@@ -357,12 +358,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #c09c00ce;}
 }
 .timeline-horizontal-border i {
     font-size:  10px;
-    color: #c4a20edf;
+    color: #b49304df;
     margin-right:  5px;
 }
 span.single-timeline-horizontal {
     display:  inline-block;
-    background: #66685a;
+    background: #dbd98aec;
     height:  1.5px;
     width: 350px;
 }
@@ -372,7 +373,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         6.  Skills
 --------------------------------------*/
 .skills {
-    
+    border-top: 1px solid #e5ebf2;
 }
 .skill-content{padding: 50px 0 80px;}
 .single-skill-content{padding-top: 100px;}
@@ -408,7 +409,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     margin-bottom: 37px;
 }
 .progress-bar {
-   background: #a58808ae;
+   background: #a8960cae;
     border-radius: 3px;
    -webkit-transition: width 1.5s ease-in-out;
    -ms-transition: width 1.5s ease-in-out;
@@ -441,7 +442,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         7. Experience
 -------------------------------------*/
 .experience {
-    padding: 50px 0 100px;
+    padding: 50px 0 50px;
     border-top: 1px solid #e5ebf2;
 }
 .experience-content {padding-top: 100px;}
@@ -471,7 +472,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     content: "";
     width: 2px;
     height: 84%;
-    background: #e9edc896;
+    background: #dbda8a36;
     position: absolute;
     top: 1.5%;
     left: 45.8%;
@@ -482,7 +483,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 .timeline-content span>i, .experience-time span>i {
-    color: rgba(145, 119, 6, 0.808);
+    color: rgb(181, 149, 5);
     position: absolute;
     font-size: 10px;
     left: -14.5%;
@@ -524,72 +525,97 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         9. Projects
 --------------------------------------*/
 .portfolio {
-    padding:  50px 0 100px;
-    border:  1px solid #ffffff;
+    padding: 50px 0 80px;
+    border: 1px solid #ffffff;
+    border-top: 1px solid #e5ebf2;
 }
 
-.portfolio-content {padding-top: 100px;}
+.portfolio-content {
+    padding-top: 80px;
+}
 
 /* ---- .item ---- */
 .isotope:after {
     content: '';
     display: block;
     clear: both;
-} 
+}
+
 .isotope .item {
     position: relative;
     overflow: hidden;
     margin-bottom: 30px;
     display: block;
+    color: #fff; /* Set the text color to white */
     border: 1px solid #ffffff; /* Add a border for the box */
-    transition: box-shadow 0.3s ease; /* Add a smooth transition for box-shadow */ 
-    /* width: 350px; */
-    /* width: 100%; */
-    /* height: 300px; */
+    transition: box-shadow 0.3s ease; /* Add a smooth transition for box-shadow */
 }
 
 .isotope .item:hover {
     box-shadow: 0 0 10px rgb(166, 185, 171); /* Add a box-shadow on hover */
 }
+
 .isotope .item img {
     width: 100%;
     height: auto; /* Make the image responsive */
 }
 
 .isotope-overlay {
-    position: absolute;
+    position: relative;
     width: 100%;
-    bottom: 0;
     background: rgba(42, 44, 14, 0.783); /* Adjust the initial transparency */
     padding: 15px;
-    text-align: center;
     color: #fff; /* Set the text color to white */
     transition: background 0.3s ease; /* Add a smooth transition for the background color */
+    cursor: pointer; /* Change cursor to pointer for clickable area */
 }
-
 
 .isotope .item:hover .isotope-overlay {
     background: rgb(39, 39, 6); /* Adjust the background color on hover */
-    color: #fff; /* Set the text color to white */
 }
 
-.overlay-content {
-    color: #fff;
+.item-details {
+    display: none; /* Hide details initially */
+    padding: 15px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255)!important;;
+    background: rgba(42, 44, 14, 0.783); /* Dark background for readability */
+    position: relative;
+    transition: max-height 0.3s ease-out; /* Smooth transition for height */
+    overflow: hidden; /* Hide overflow for collapsible effect */
+}
+.item-details p{
+    color: rgb(223, 221, 221)!important;;
+}
+.expand-btn {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
     font-size: 18px;
+    cursor: pointer; /* Pointer cursor for clickable area */
+    color: #fff; /* White color for arrow */
 }
 
-.overlay-content h3 {
-    margin: 0;
-    color: #fff;
-} 
- 
+.expand-btn i {
+    transition: transform 0.3s ease; /* Smooth rotation for the arrow */
+}
+
+.expand-btn.active i {
+    transform: rotate(180deg); /* Rotate arrow when expanded */
+}
+
+/* Add responsive styles if needed */
+
+  
+
 /*-------------------------------------
     11. Recommendations
 --------------------------------------*/
 .recommendations {
     padding-top: 50px;
-    background-color: #f5f5f5; /* Light background for contrast */
+    background-color: #ffffff; /* Light background for contrast */
     padding-bottom: 50px; /* Additional padding at the bottom */
+    border-top: 1px solid #e5ebf2;
 }
 
 .recommendations-area {
@@ -603,28 +629,28 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     padding: 30px 40px; /* Adjusted padding for better spacing */
     border: 1px solid #ddd;
     border-radius: 12px; /* Smoother corners */
-    background-color: #fff; /* White background for the boxes */
+    background-color: #ffffff; /* White background for the boxes */
     width: 100%;
     max-width: 600px;
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 8px rgba(198, 204, 147, 0.1); /* Subtle shadow for depth */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
 }
 
 .recommendation-item:hover {
     transform: translateY(-5px); /* Slight lift on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+    box-shadow: 0 8px 16px rgba(56, 54, 11, 0.251); /* Deeper shadow on hover */
 }
 
 .recommendation-item h3 {
     margin-top: 0;
     font-size: 1.5em; /* Larger font for the name */
-    color: #333; /* Darker color for the name */
+    color: #2b290d; /* Darker color for the name */
 }
 
 .recommendation-item p {
     font-size: 1em; /* Adjust font size for position */
-    color: #666; /* Slightly lighter color for the position */
+    color: #141305; /* Slightly lighter color for the position */
     margin-bottom: 10px; /* Space between position and blockquote */
 }
 
@@ -633,7 +659,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-style: italic;
     font-size: 1.1em; /* Slightly larger font for blockquote */
     line-height: 1.6; /* Better line spacing for readability */
-    color: #555; /* Softer color for blockquote text */
+    color: #484510; /* Softer color for blockquote text */
 }
 
 .recommendation-item a {
