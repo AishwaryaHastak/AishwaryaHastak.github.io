@@ -563,7 +563,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .isotope-overlay {
     position: relative;
     width: 100%;
-    background: rgba(42, 44, 14, 0.783); /* Adjust the initial transparency */
+    background: rgba(42, 44, 14, 0.898); /* Adjust the initial transparency */
     padding: 15px;
     color: #fff; /* Set the text color to white */
     transition: background 0.3s ease; /* Add a smooth transition for the background color */
@@ -571,7 +571,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 .isotope .item:hover .isotope-overlay {
-    background: rgb(39, 39, 6); /* Adjust the background color on hover */
+    background: rgb(45, 45, 7); /* Adjust the background color on hover */
 }
 
 .item-details {
@@ -579,13 +579,13 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     padding: 15px;
     box-sizing: border-box;
     color: rgb(255, 255, 255)!important;;
-    background: rgba(42, 44, 14, 0.783); /* Dark background for readability */
+    background: rgba(42, 44, 14, 0.726); /* Dark background for readability */
     position: relative;
     transition: max-height 0.3s ease-out; /* Smooth transition for height */
     overflow: hidden; /* Hide overflow for collapsible effect */
 }
 .item-details p{
-    color: rgb(223, 221, 221)!important;;
+    color: rgb(225, 223, 223)!important;;
 }
 .expand-btn {
     position: absolute;
