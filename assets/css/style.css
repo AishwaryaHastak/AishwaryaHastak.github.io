@@ -248,19 +248,19 @@ nav.navbar.bootsnav .navbar-toggle i{color: #c09c00ce;}
 .about-content {padding-top: 100px;}
 /*.single-about-txt*/
 .single-about-txt h3 {
-    font-size:18px;
+    font-size:16px;
     color: #715f02f6;
     text-transform: initial;
     line-height: 1.8;
 }
 .single-about-txt p {
-    font-size: 18px;
+    font-size: 16px;
     color: #262b25;
     padding: 35px 0 43px;
     border-bottom: 1px solid #7d7e5e;
 }
 .single-about-txt p a{
-    font-size: 18px;
+    font-size: 16px;
     color: #7d7e5e;  text-decoration: underline;
 }
 .single-about-add-info {
@@ -537,9 +537,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     border-top: 1px solid #e5ebf2;
 }
 
-.portfolio-details {
+/* .portfolio-details {
     padding-top: 80px;
-}
+} */
 .portfolio-list {
     list-style-type: disc; /* Default bullet points */
     margin: 0;
