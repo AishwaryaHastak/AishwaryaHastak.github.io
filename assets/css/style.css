@@ -437,6 +437,39 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
    transform: translateX(-50%);
    margin-left: 0;
 }
+/*-------------------------------------
+        7. Certifications
+--------------------------------------*/
+.certificates {
+    padding: 50px 0;
+}
+.certificates .section-heading h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5ebf2;
+}
+.certification-badge {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.certificates .row {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the items */
+    flex-wrap: wrap; /* Allow wrapping for responsiveness */
+}
+.certification-badge img {
+    max-width: 100%; /* Ensure the badge fits well */
+    height: auto; /* Maintain aspect ratio */
+}
+.certification-badge p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #44611e; /* Match with your progress text color */
+    font-weight: 500;
+}
+
 
 /*-------------------------------------
         7. Experience
