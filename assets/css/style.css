@@ -335,6 +335,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #c09c00ce;}
 .education {
     background:  #ffffffdd;
     padding-top:  50px;
+    padding-bottom:  50px;
     border-top: 1px solid #e5ebf2;
 }
 .education-horizontal-timeline {
@@ -369,86 +370,110 @@ span.single-timeline-horizontal {
 }
 span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;} 
 
+
 /*-------------------------------------
-        6.  Skills
+        6. Skills Section
 --------------------------------------*/
 .skills {
     border-top: 1px solid #e5ebf2;
+    padding: 40px 0 0px;
 }
-.skill-content{padding: 50px 0 80px;}
-.single-skill-content{padding-top: 100px;}
+
+.skill-content {
+    padding: 60px 0 80px;
+}
+
 .section-heading h2 {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #e5ebf2;
+    margin-bottom: 40px;
+}
+
+/* Skill Categories */
+.single-skill-content h3 {
     font-size: 24px;
     font-weight: 600;
-    text-transform: uppercase;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #e5ebf2;
+    color: #444;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e5ebf2;
 }
-.single-progress-txt {
-    display: flex;
+
+.single-skill-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
-.single-progress-txt h3 {
-    width: 10%;
-    color: #44611e;
+
+.single-skill-content ul li {
+    font-size: 18px;
+    color: #666;
+    padding: 8px 0;
     position: relative;
-    top: 6px;
-    left: 20px;
+    transition: color 0.3s ease, padding-left 0.3s ease;
 }
-.barWrapper {
-    font-weight: 400;
-    font-size: 16px;
-    text-transform: uppercase;
+
+.single-skill-content ul li::before {
+    content: "•";
+    color: #b4940422;
+    font-weight: bold;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
 }
-.progress {
-    border-radius:3px;
-    overflow: visible;
-    background: #e6ecf3;
-    height:8px;
-    margin-top: 15px;
-    width: 85%;
-    margin-bottom: 37px;
+
+.single-skill-content ul li:hover {
+    color: #b49404;
+    padding-left: 12px;
 }
-.progress-bar {
-   background: #a8960cae;
-    border-radius: 3px;
-   -webkit-transition: width 1.5s ease-in-out;
-   -ms-transition: width 1.5s ease-in-out;
-   -moz-transition: width 1.5s ease-in-out;
-   -o-transition: width 1.5s ease-in-out;
-   transition: width 1.5s ease-in-out;
+
+/* Layout */
+.col-md-4 {
+    padding: 15px;
+    margin-bottom: 20px;
 }
-.tooltip{
-   position:relative;
-   float:right;
+
+/* Enhance responsiveness */
+@media (max-width: 768px) {
+    .col-md-4 {
+        width: 100%;
+    }
 }
-.tooltip > .tooltip-inner {
-   background-color: transparent;
-   padding: 1px 5px;
-   color: #bc9c0ece;
-   font-weight: 500;
-   font-size: 12px;
-   border-radius: 0;
+
+/* Styling for Cards */
+.single-skill-content {
+    background: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.popOver + .tooltip > .tooltip-arrow {
-   border-left: 6px solid transparent;
-   border-right: 6px solid transparent;
-   border-top: 6px solid #fff;
-   bottom: -1px;
-   transform: translateX(-50%);
-   margin-left: 0;
+
+.single-skill-content:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
 }
+
+
+
 /*-------------------------------------
         7. Certifications
 --------------------------------------*/
 .certificates {
-    padding: 50px 0;
-}
+    padding: 0px 0 0px;
+} 
 .certificates .section-heading h2 {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 28px;
+    font-weight: 700;
     text-transform: uppercase;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #e5ebf2;
+    color: #333;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #e5ebf2;
+    margin-bottom: 40px;
 }
 .certification-badge {
     text-align: center;
